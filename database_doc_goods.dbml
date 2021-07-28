@@ -1,0 +1,15 @@
+Table shops_goods as S{
+  id serial [pk]
+  id_good int [not null]
+  location varchar [not null]
+  amount int [not null]
+}
+
+Table goods as G {
+  id int [pk, not null]
+  name varchar [not null]
+  package_height float [not null]
+  package_width float [not null]
+}
+
+Ref: "S"."id_good" - "G"."id"
