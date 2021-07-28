@@ -1,7 +1,7 @@
 import json
 import psycopg2
 import sys
-from typing import Any, Tuple, Union
+from typing import Any, Tuple, List, Union
 from pydbml import PyDBML
 from jsonschema import validate, ValidationError, SchemaError
 from more_itertools import chunked
@@ -73,7 +73,7 @@ def get_columns_name(db_structure: Any) -> list:
     return columns_list
 
 
-def get_good_data(json_as_dict: dict) -> Tuple[tuple[Any, ...], Tuple[list[Any], ...]]:
+def get_good_data(json_as_dict: dict) -> Tuple[Tuple[Any, ...], Tuple[List[Any], ...]]:
     """Получаем данные по товарам из JSON-файла."""
     data_for_goods, data_for_shops = [], []
     id_good = None
