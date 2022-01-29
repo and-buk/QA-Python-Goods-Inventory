@@ -1,0 +1,70 @@
+{
+    "0": {
+        "id": 1,
+        "name": "Телевизор",
+        "package_params": {
+            "height": 5,
+            "width": 20
+        },
+        "location_and_quantity": [
+            {
+                "location": "Магазин на Ленина",
+                "amount": 7
+            },
+            {
+                "location": "Магазин в центре",
+                "amount": 3
+            },
+            {
+                "location": "Магазин на Верности",
+                "amount": 10
+            }
+        ]
+    },
+
+    "1": {
+        "id": 2,
+        "name": "Микроволновая печь",
+        "package_params": {
+            "height": 2,
+            "width": 4
+        },
+        "location_and_quantity": [
+            {
+                "location": "Магазин на Ленина",
+                "amount": 10
+            },
+            {
+                "location": "Магазин на Верности",
+                "amount": 1
+            },
+            {
+                "location": "Магазин на Доблести",
+                "amount": 2
+            }
+        ]
+    },
+
+    "2": {
+        "id": 3,
+        "name": "Стиральная машина",
+        "package_params": {
+            "height": 12,
+            "width": 7
+        },
+        "location_and_quantity": [
+            {
+                "location": "Магазин на Ленина",
+                "amount": 10
+            },
+            {
+                "location": "Магазин на Верности",
+                "amount": 1
+            },
+            {
+                "location": "Магазин на Доблести",
+                "amount": 2
+            }
+        ]
+    }
+}
